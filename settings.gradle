@@ -1,0 +1,2 @@
+rootProject.name = "SOOMTA_AD"
+include ':app'
