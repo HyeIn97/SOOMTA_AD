@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:title="홈"
+        app:showAsAction="withText"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        app:itemIconTint="@drawable/menu_selector_color"
+        app:itemTextColor="@drawable/menu_selector_color"
+        />
+    <item
+        android:id="@+id/list"
+        android:title="카테고리"
+        app:showAsAction="withText"
+        android:enabled="true"
+        android:icon="@drawable/list"
+        app:itemIconTint="@drawable/menu_selector_color"
+        app:itemTextColor="@drawable/menu_selector_color"
+        />
+    <item
+        android:id="@+id/search"
+        android:title="검색"
+        app:showAsAction="withText"
+        android:enabled="true"
+        android:icon="@drawable/search"
+        app:itemIconTint="@drawable/menu_selector_color"
+        app:itemTextColor="@drawable/menu_selector_color"
+        />
+    <item
+        android:id="@+id/user"
+        android:title="내 정보"
+        app:showAsAction="withText"
+        android:enabled="true"
+        android:icon="@drawable/user"
+        app:itemIconTint="@drawable/menu_selector_color"
+        app:itemTextColor="@drawable/menu_selector_color"
+        />
+</menu>
